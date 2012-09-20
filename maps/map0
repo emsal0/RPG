@@ -1,0 +1,12 @@
+local map = {}
+
+for i = 1,20 do
+	local row = {}
+	for j = 1,20 do
+		table.insert(row, "1")
+	end
+end
+
+end
+
+return map; 
