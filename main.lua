@@ -40,7 +40,7 @@ function love.draw()
 
 	dialogues:draw()
 	love.graphics.print(tostring(hero.xpos) .. ", " .. tostring(hero.ypos), camera:getX()+200, camera:getY()+10)
-	d RPG - Copy (6) - Copy - Copy - Copy
+	--&d RPG - Copy (6) - Copy - Copy - Copy
 
 	camera:unset()
 end
